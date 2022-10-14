@@ -1,6 +1,7 @@
 from selenium import webdriver
 from getpass import getpass
 from time import sleep
+from datetime import datetime
 from sys import argv
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
