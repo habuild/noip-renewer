@@ -7,7 +7,8 @@ ARG REQUESTS_VERSION
 
 RUN apk add --no-cache gcc libc-dev libffi-dev && \
     pip install --no-cache-dir pip=="$PIP_VERSION" && \
-    pip install --no-cache-dir --user selenium=="$SELENIUM_VERSION" googletrans=="$GOOGLETRANS_VERSION" requests=="$REQUESTS_VERSION"
+    pip install --no-cache-dir --user selenium=="$SELENIUM_VERSION" googletrans=="$GOOGLETRANS_VERSION" requests=="$REQUESTS_VERSION" && \
+    tzdata --no-cache-dir
 
 
 
