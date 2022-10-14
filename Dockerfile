@@ -5,10 +5,9 @@ ARG SELENIUM_VERSION
 ARG GOOGLETRANS_VERSION
 ARG REQUESTS_VERSION
 
-RUN apk add --no-cache gcc libc-dev libffi-dev && \
+RUN apk add --no-cache gcc libc-dev libffi-dev tzdata && \
     pip install --no-cache-dir pip=="$PIP_VERSION" && \
-    pip install --no-cache-dir --user selenium=="$SELENIUM_VERSION" googletrans=="$GOOGLETRANS_VERSION" requests=="$REQUESTS_VERSION" && \
-    tzdata --no-cache-dir
+    pip install --no-cache-dir --user selenium=="$SELENIUM_VERSION" googletrans=="$GOOGLETRANS_VERSION" requests=="$REQUESTS_VERSION"
 
 
 
