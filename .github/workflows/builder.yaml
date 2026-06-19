@@ -44,7 +44,7 @@ jobs:
           push: true
           tags: |
               habuild/noip-renewer-base:latest
-              habuild/noip-renewer-base:2026.06.2
+              habuild/noip-renewer-base:2026.06.3
           labels: ${{ steps.meta.outputs.labels }}
           platforms: linux/amd64,linux/arm64
           load: true
