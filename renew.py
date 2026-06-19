@@ -49,7 +49,7 @@ def exit_with_error(message):
     browser.quit()
     exit(1)
 
-def get_addon_info_options():
+def addon_options():
     """
     Import credentials from data/options.json for Home Assistant credentials from an Addon.
 
@@ -90,6 +90,7 @@ def get_addon_info_options():
         print(os.environ.get("TRANSLATE_ENABLED"))
     else:
         pass
+addon_options()
 
 def get_credentials():
     """
