@@ -1,6 +1,6 @@
 ---
 name: noip-renewer-base
-version: 2026.06.2
+version: 2026.06.3
 slug: noip-renewer-base
 description: "simao-silva/noip-renewer for homeassistant addons"
 url: "https://github.com/habuild/noip-renewer/tree/main/noip-renewer"
