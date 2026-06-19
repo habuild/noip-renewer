@@ -89,7 +89,7 @@ def HA_addon_options():
         print(os.environ.get("TRANSLATE_ENABLED"))
     else:
         pass
-HA_app_options()
+HA_addon_options()
 
 def get_credentials():
     """
